@@ -5,7 +5,7 @@ counter = 5
 
 def guess_the_number(punkty, counter):
     random.seed()
-    liczba = random.randint(0, 10)
+    liczba = random.randint(1, 10)
     strzal = eval(input("Zgadnij liczbe od 1 do 10: "))
     while(strzal < 1 or strzal > 10):
         strzal = eval(input("Wpisz liczbe od 1 do 10: "))
